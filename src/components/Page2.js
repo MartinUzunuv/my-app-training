@@ -90,12 +90,20 @@ const Page2 = () => {
         }}>
           <div style={{
             backgroundColor: 'white',
-              padding: '50px',
-            borderRadius: '10px'
+              borderRadius: '10px',
+              width: '250px',
+              height: '130px',
+              padding: '10px',
+              display: 'flex',
+              alignItems: 'flex-start',
+              justifyContent: 'space-between'
           }}>
               Yay you won
               <button style={{
-                color: 'red'
+                color: 'red',
+                backgroundColor: 'white',
+                border: 'none',
+                cursor: 'pointer'
               }} onClick={onClickPopup}>X</button>
           </div>
         </div>
